@@ -1,0 +1,344 @@
+.bottom-divider-1 {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='27px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23327c64'%3E%3Cpath d='M725.29 101.2C325.22 122.48 0 0 0 0v140h1280V0s-154.64 79.92-554.71 101.2z' fill-opacity='.3'/%3E%3Cpath d='M556.45 119.74C953.41 140 1280 14 1280 14v126H0V0s159.5 99.48 556.45 119.74z' fill-opacity='.5'/%3E%3Cpath d='M640 140c353.46 0 640-140 640-139v140H0V0s286.54 140 640 140z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100% 35px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.bottom-divider-2 {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='55px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff'%3E%3Cpath d='M725.29 101.2C325.22 122.48 0 0 0 0v140h1280V0s-154.64 79.92-554.71 101.2z' fill-opacity='.3'/%3E%3Cpath d='M556.45 119.74C953.41 140 1280 14 1280 14v126H0V0s159.5 99.48 556.45 119.74z' fill-opacity='.5'/%3E%3Cpath d='M640 140c353.46 0 640-140 640-139v140H0V0s286.54 140 640 140z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100% 55px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  bottom: 0;
+  z-index: 5;
+  left: 0;
+}
+
+.top-divider-1 {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='55px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff'%3E%3Cpath d='M725.29 101.2C325.22 122.48 0 0 0 0v140h1280V0s-154.64 79.92-554.71 101.2z' fill-opacity='.3'/%3E%3Cpath d='M556.45 119.74C953.41 140 1280 14 1280 14v126H0V0s159.5 99.48 556.45 119.74z' fill-opacity='.5'/%3E%3Cpath d='M640 140c353.46 0 640-140 640-139v140H0V0s286.54 140 640 140z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100% 55px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  top: 0;
+  z-index: 5;
+  left: 0;
+  transform: rotatex(180deg);
+}
+
+.top-divider-2 {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='42px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23195341'%3E%3Cpath d='M0 51.76c36.21-2.25 77.57-3.58 126.42-3.58 320 0 320 57 640 57 271.15 0 312.58-40.91 513.58-53.4V0H0z' fill-opacity='.3'/%3E%3Cpath d='M0 24.31c43.46-5.69 94.56-9.25 158.42-9.25 320 0 320 89.24 640 89.24 256.13 0 307.28-57.16 481.58-80V0H0z' fill-opacity='.5'/%3E%3Cpath d='M0 0v3.4C28.2 1.6 59.4.59 94.42.59c320 0 320 84.3 640 84.3 285 0 316.17-66.85 545.58-81.49V0z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100% 34px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 34px;
+  z-index: 5;
+  transform: rotateY(180deg);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* modal */
+.modal-content {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.24) 70%, #000c0f 100%), url("../../img/modal2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+}
+
+.modal-teks {
+  position: absolute;
+  top: 55% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.modal-teks h2 {
+  font-family: "Sacramento", cursive;
+  font-size: 3em;
+}
+
+.modal-teks h5 {
+  margin-bottom: 1.5em;
+}
+
+.btn-modal {
+  font-family: "Leckerli One", cursive;
+}
+
+.modal-teks .btn-modal {
+  background-color: white;
+  color: black;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.modal-teks .btn-modal:hover {
+  background-color: #327c64;
+  color: white;
+}
+
+/* hero header */
+.hero-header {
+  background-image: url("../../img/modal1.JPG");
+  height: 100vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header-teks {
+  background-color: rgba(25, 83, 65, 0.3);
+  position: absolute;
+  top: 70% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 30px 0 30px;
+  border-radius: 2em;
+  text-align: center;
+  color: white;
+}
+
+.header-teks h1 {
+  font-family: "Sacramento", sans-serif;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+
+.header-teks {
+  text-transform: uppercase;
+}
+
+/* holybooks quote */
+.holy-body {
+  padding: 0 10px 45px 10px;
+  background-image: linear-gradient(0deg, rgba(25, 83, 65, 1) 40%, rgba(50, 124, 100, 1) 100%);
+  color: white;
+  position: relative;
+}
+
+.holy-content {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+
+.holy-quote {
+  text-align: center;
+  font-size: 15px;
+}
+
+.decor span img {
+  display: block;
+  width: 50px;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+/* biodata calon pengantin */
+.biodata {
+  padding: 75px 0;
+}
+
+.biodata-manten,
+.dan {
+  text-align: center;
+}
+
+.dan h2 {
+  font-family: "Bad Script", cursive;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.biodata-manten h2 {
+  font-family: "Rosarivo", serif;
+  font-weight: bold;
+}
+
+.ctdwn-pelaksanaan {
+  background-image: linear-gradient(0deg, rgba(25, 83, 65, 1) 40%, rgba(50, 124, 100, 1) 100%);
+  color: white;
+  position: relative;
+}
+
+/* countdown timer */
+.countdown-timer-body {
+  padding: 50px 0;
+}
+
+.countdown-timer {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Sacramento", cursive;
+}
+
+.hitung-mundur {
+  display: flex;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.countdown-content {
+  display: block;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* pelaksanaan */
+.tanggal-body {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tanggal-content {
+  background-color: #5a8577;
+  color: white;
+  border-radius: 2em;
+}
+
+.container-body {
+  width: 60%;
+}
+
+@media (max-width: 576px) {
+  .container-body {
+    width: 90%;
+  }
+}
+
+.title-acara {
+  padding: 20px 0;
+}
+
+.title-acara h2 {
+  font-family: "Sacramento", cursive;
+}
+
+.tempat {
+  justify-content: center;
+}
+
+.waktu-acara p {
+  margin: 0;
+}
+
+.lihat-lokasi {
+  padding: 15px 0 50px 0;
+  text-align: center;
+}
+
+.btn-lokasi {
+  background-color: #387a65;
+  color: white;
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+.btn-lokasi:hover {
+  background-color: #1e473a;
+  color: white;
+}
+
+/* carousel */
+.body-carousel {
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* wishes */
+.wishes {
+  padding: 75px 0 50px 0;
+  text-align: center;
+  background-image: linear-gradient(0deg, rgba(25, 83, 65, 1) 40%, rgba(50, 124, 100, 1) 100%);
+  position: relative;
+}
+
+.kartu-ucapan {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.head-kartu {
+  color: #212529;
+}
+
+.head-kartu h3 {
+  font-family: "Italianno", cursive;
+}
+
+.isian-kartu {
+  padding: 15px;
+}
+
+.btn-wish {
+  background-color: #195341;
+  color: white;
+  width: 100%;
+}
+
+.btn-wish:hover {
+  background-color: #327c64;
+  color: white;
+}
+
+.say-thanks {
+  color: white;
+  padding: 40px 0 35px 0;
+}
+
+.say-thanks p {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+}
+
+.say-thanks h3 {
+  font-family: "Bad Script", cursive;
+  font-size: 2.5em;
+}
+
+/* footer */
+footer {
+  display: block;
+  margin: 15px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}

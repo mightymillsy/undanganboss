@@ -1,0 +1,200 @@
+/* modal */
+.modal-content {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.24) 70%, #000c0f 100%), url("../../img/d4_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+}
+
+.modal-teks {
+  position: absolute;
+  top: 55% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.modal-teks h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+}
+
+.btn-modal {
+  font-family: "Leckerli One", cursive;
+}
+
+.modal-teks .btn-modal {
+  background-color: white;
+  color: black;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.modal-teks .btn-modal:hover {
+  background-color: #78918f;
+  color: white;
+}
+
+/* hero header */
+.hero-foto {
+  background-image: url("../../img/modal.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+.teks-hero {
+  position: absolute;
+  left: 50% !important;
+  bottom: 10% !important;
+  transform: translate(-50%, -50%) !important;
+  text-align: center;
+  color: white;
+}
+
+/* quote */
+.quote {
+  padding-bottom: 30px;
+}
+
+.decor {
+  display: block;
+  width: 50px;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.quote-teks {
+  margin: 0 auto;
+}
+
+/* biodata */
+.gg {
+  background-image: url("../../img/web3-4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: auto;
+}
+
+.card {
+  border: transparent;
+}
+
+.foto-manten {
+  max-width: 250px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    text-align: center !important;
+  }
+
+  .foto-manten {
+    max-width: 150px;
+  }
+}
+
+/* pelaksanaan */
+.acara {
+  background-color: #5e6572;
+  color: #fff7ee;
+}
+
+.wgm {
+  padding: 20px 0;
+  font-family: cursive;
+}
+
+.countdown-timer {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.pelaksanaan hr {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.tempat-acara h6 {
+  line-height: 0.8;
+}
+
+.lihat-lokasi {
+  background-color: #fff7ee;
+  color: #74583e;
+}
+
+.lihat-lokasi:hover {
+  background-color: #74583e;
+  color: #fff7ee;
+}
+
+/* wishes */
+.wishes {
+  padding: 75px 0 50px 0;
+  text-align: center;
+  margin: auto;
+  background-color: #5e6572;
+}
+
+.kartu-ucapan {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.head-kartu {
+  color: black;
+}
+
+.head-kartu h3 {
+  font-family: "Italianno", cursive;
+}
+
+.isian-kartu {
+  padding: 15px;
+}
+
+.btn-wish {
+  background-color: #5e6572;
+  color: #fff7ee;
+  width: 100%;
+}
+
+.btn-wish:hover {
+  background-color: #fff7ee;
+  color: #5e6572;
+}
+
+.say-thanks {
+  color: white;
+  padding: 40px 0 35px 0;
+}
+
+.say-thanks p {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+}
+
+.say-thanks h3 {
+  font-family: "Bad Script", cursive;
+  font-size: 2.5em;
+}
+
+/* footer */
+footer p {
+  margin: 0;
+}

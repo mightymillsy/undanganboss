@@ -1,0 +1,329 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* modal */
+.modal-content {
+  background-image: linear-gradient(180deg, rgba(5, 5, 5, 0.24) 70%, #000c0f 100%), url("../../img/d4_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+}
+
+.modal-teks {
+  position: absolute;
+  top: 55% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.modal-teks h2 {
+  font-family: "Sacramento", cursive;
+  font-size: 3em;
+}
+
+.modal-teks h6 {
+  margin-bottom: 1.5em;
+}
+
+.btn-modal {
+  font-family: "Leckerli One", cursive;
+}
+
+.modal-teks .btn-modal {
+  background-color: white;
+  color: black;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.modal-teks .btn-modal:hover {
+  background-color: #78918f;
+  color: white;
+}
+
+/* hero header */
+.hero-header {
+  background-image: url("../../img/d4_5.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  position: relative;
+}
+
+.header-teks {
+  position: absolute;
+  bottom: 0 !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 70%;
+  text-align: center;
+  color: white;
+}
+
+.header-teks h1 {
+  font-family: "Sacramento", sans-serif;
+}
+
+.bottom-divider-1 {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='27px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2378918f'%3E%3Cpath d='M725.29 101.2C325.22 122.48 0 0 0 0v140h1280V0s-154.64 79.92-554.71 101.2z' fill-opacity='.3'/%3E%3Cpath d='M556.45 119.74C953.41 140 1280 14 1280 14v126H0V0s159.5 99.48 556.45 119.74z' fill-opacity='.5'/%3E%3Cpath d='M640 140c353.46 0 640-140 640-139v140H0V0s286.54 140 640 140z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100% 35px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.top-divider-1 {
+  background-image: url("data:image/svg+xml,%3Csvg width='100%25' height='27px' viewBox='0 0 1280 140' preserveAspectRatio='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2378918f'%3E%3Cpath d='M725.29 101.2C325.22 122.48 0 0 0 0v140h1280V0s-154.64 79.92-554.71 101.2z' fill-opacity='.3'/%3E%3Cpath d='M556.45 119.74C953.41 140 1280 14 1280 14v126H0V0s159.5 99.48 556.45 119.74z' fill-opacity='.5'/%3E%3Cpath d='M640 140c353.46 0 640-140 640-139v140H0V0s286.54 140 640 140z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 100% 35px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  top: 0;
+  z-index: 5;
+  transform: rotateX(180deg);
+}
+
+/* holybooks quote */
+.holy-body {
+  padding: 15px 10px 10px 10px;
+  background-color: #78918f;
+  color: white;
+  position: relative;
+}
+
+.holy-content {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+
+.holy-quote {
+  text-align: center;
+}
+
+.decor span img {
+  display: block;
+  width: 50px;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+/* photo story */
+.photo-story {
+  background-color: #78918f;
+  padding-bottom: 3em;
+}
+
+.con-story {
+  background-color: white;
+  border-radius: 2em;
+  --bs-gutter-x: 0 !important;
+}
+
+.title-story {
+  text-align: center;
+  font-family: "Sacramento", sans-serif;
+}
+
+.ps-foto {
+  width: 95%;
+}
+
+.dan {
+  margin: 10px 0;
+}
+
+/* biobio */
+.biobio {
+  background-image: url("../../img/web3-4.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  position: relative;
+}
+
+/* biodata */
+.biodata {
+  position: relative;
+  padding: 15px 0;
+  height: 100%;
+}
+
+.card {
+  border: none;
+  border-radius: unset;
+}
+
+.card-body.bio h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.card-body.bio h6 {
+  margin-bottom: 0;
+}
+
+.card-body.bio p {
+  margin-bottom: 0.3rem;
+}
+
+.dan {
+  font-family: "Sacramento", sans-serif;
+}
+
+.foto-manten {
+  width: 225px;
+}
+
+@media (max-width: 576px) {
+  .card-body.bio > * {
+    text-align: center !important;
+  }
+
+  .foto-manten {
+    width: 150px;
+  }
+}
+
+/* pelaksanaan */
+.pelaksanaan {
+  background-color: #78918f;
+  padding: 3em 0;
+}
+
+.pelaksanaan .card {
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.btn-loc {
+  color: white;
+  background-color: #78918f;
+}
+
+/* akad nikah */
+.detail-acara p {
+  margin-bottom: 0.5rem;
+}
+
+/* countdown */
+.ctdn-timer {
+  background-image: url("../../img/d4_3.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 1em;
+}
+
+.timer-content {
+  color: white;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%, -50%) !important;
+  width: 350px;
+}
+
+.realtime-counter {
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.realtime-counter p {
+  margin-bottom: 0;
+}
+
+/* wishes */
+.wishes {
+  padding: 75px 0 50px 0;
+  text-align: center;
+  background-color: #78918f;
+  position: relative;
+}
+
+.kartu-ucapan {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.head-kartu {
+  color: #212529;
+}
+
+.head-kartu h3 {
+  font-family: "Kanit", sans-serif;
+}
+
+.head-kartu p {
+  font-size: 14px;
+}
+
+.isian-kartu {
+  padding: 5px;
+}
+
+#floatingTextarea {
+  height: 100px;
+}
+
+.btn-wish {
+  background-color: #78918f;
+  color: white;
+}
+
+.btn-wish:hover {
+  background-color: #3d4b4a;
+  color: white;
+}
+
+.say-thanks {
+  color: white;
+  padding: 40px 0 35px 0;
+}
+
+.say-thanks p {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+}
+
+.say-thanks h3 {
+  font-family: "Bad Script", cursive;
+  font-size: 2.5em;
+}
+
+/* footer */
+footer {
+  display: block;
+  margin: 15px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
